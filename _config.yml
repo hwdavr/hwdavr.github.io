@@ -101,7 +101,7 @@ analytics:
 # Site Author
 author:
   name             : "Walter Huang"
-  avatar           : "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/icon.jpg"
   bio              : "Programming with Security"
   location         : "/about"
   email            :
