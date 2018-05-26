@@ -1,7 +1,7 @@
 ---
 title:  "Frida cheat sheet"
 date:   2018-03-29 19:00:33 +0800
-categories: Hacking
+categories: Mobile Programming
 classes:
   - landing
 header:
