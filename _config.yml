@@ -20,9 +20,9 @@ title                    : "Home"
 title_separator          : "-"
 name                     : "Hwdavr"
 description              : "Mobile Programming and Security"
-url                      : https://hwdvar.github.io
+url                      : https://hwdavr.github.io
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : hwdavr/hwdvar.github.io
+repository               : hwdavr/hwdavr.github.io
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
