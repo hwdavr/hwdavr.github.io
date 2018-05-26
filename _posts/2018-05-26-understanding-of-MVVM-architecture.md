@@ -16,7 +16,8 @@ MVVM becoming more and more popular is because its loose coupling and clear resp
 The reason is simple. In MVVM, only View layer is holding the reference of View Model, only View Model is holding the reference of Model layer.
 Not like MVC, even Model layer also can hold the reference of View layer.
 As a results, when one view is not used, its memory can be collected even its modeling is used by another view.
-![My helpful screenshot]({{ "/assets/images/mvvm.png" | absolute_url }})
+
+![MVVM]({{ "/assets/images/mvvm.png" | absolute_url }})
 
 ### Data binding
 The foundation of MVVM is data binding, without data binding, MVVM cannot be achieved. MVVM use data binding to communicate with View and View Model. This is the basic principle of MVVM. Someone may make mistake to use data binding with View and Model, it's not a correct practice. In MVVM, View only communicates with View Model directly.
