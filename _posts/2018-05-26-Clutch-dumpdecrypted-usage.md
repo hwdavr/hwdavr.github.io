@@ -9,43 +9,43 @@ header:
 ---
 
 
-Clutch Usage
-	•	Dump the installed app
+### Clutch Usage
+Dump the installed app
 ```
-	Clutch -i
+Clutch -i
 ```
-	•	Dump app with number
+Dump app with number
 ```
-	Clutch -d 63
+Clutch -d 63
 ```
 
-dumpdecrypted Usage
-	•	Check the process Id
+### dumpdecrypted Usage
+Check the process Id
 ```
-	ps -e | grep Aplipay
+ps -e | grep Aplipay
 ```
-	•	Use cycript check app documents directory
+Use cycript check app documents directory
 ```
-	cycript -p 10854
-	[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory
+cycript -p 10854
+[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory
                                               inDomains:NSUserDomainMask][0]
 
-	#"file:///var/mobile/Containers/Data/Application/DB840722-C37B-47F7-AAAB-E3C4C7616220/Documents/"
+#"file:///var/mobile/Containers/Data/Application/DB840722-C37B-47F7-AAAB-E3C4C7616220/Documents/"
 ```
-	•	将dumpdecrypted.dylib拷贝到documents目录，可以使用scp命令或者iFunbox工具
+Copy dumpdecrypted.dylib to documents directory，you can use scp command or use iFunbox tool
 ```
-	scp dumpdecrypted.dylib root@ip: /var/mobile/Containers/Data/Application/371430E9-C2EE-4888-849C-6A51CF32867C/Documents/
+scp dumpdecrypted.dylib root@ip: /var/mobile/Containers/Data/Application/371430E9-C2EE-4888-849C-6A51CF32867C/Documents/
 
-	cd /var/mobile/Containers/Data/Application/DB840722-C37B-47F7-AAAB-E3C4C7616220/Documents/
-	put dumpdecrypted.dylib
+cd /var/mobile/Containers/Data/Application/DB840722-C37B-47F7-AAAB-E3C4C7616220/Documents/
+put dumpdecrypted.dylib
 ```
-	•	cd到documents目录执行, 切换到mobile用户
+Switch to mobile user, go to documents directory and execute
 ```
-	su mobile
-	cd /var/mobile/Containers/Data/Application/DB840722-C37B-47F7-AAAB-E3C4C7616220/Documents/
-	DYLD_INSERT_LIBRARIES=dumpdecrypted.dylib /var/containers/Bundle/Application/0C32538D-939A-4E15-9509-04AC67A290FD/yweather.app/yweather
+su mobile
+cd /var/mobile/Containers/Data/Application/DB840722-C37B-47F7-AAAB-E3C4C7616220/Documents/
+DYLD_INSERT_LIBRARIES=dumpdecrypted.dylib /var/containers/Bundle/Application/0C32538D-939A-4E15-9509-04AC67A290FD/yweather.app/yweather
 ```
-	使用class dump就可以dump出来class了
+Now you can use class-dump to dump the classes
 ```
-	class-dump -S -s -H weather.decrypted -o /to/dir
+class-dump -S -s -H weather.decrypted -o /to/dir
 ```
