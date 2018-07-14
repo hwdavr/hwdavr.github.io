@@ -1,7 +1,7 @@
 ---
 title:  "Clutch and Dumpdecrypted Usage"
 date:   2018-03-29 19:00:33 +0800
-categories: Mobile Security
+categories: mobliesecurity
 classes:
   - landing
 header:

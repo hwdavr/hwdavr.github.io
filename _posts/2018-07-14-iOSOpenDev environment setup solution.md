@@ -1,7 +1,7 @@
 ---
 title:  "iOSOpenDev environment setup solution"
 date:   2018-07-14 16:10:33 +0800
-categories: Mobile\ Security
+categories: mobliesecurity
 classes:
   - landing
 header:
