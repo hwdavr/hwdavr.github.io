@@ -1,7 +1,7 @@
 ---
 title:  "Understanding of MVVM architecture"
 date:   2018-03-29 19:00:33 +0800
-categories: Server&Cloud
+categories: Programming
 classes:
   - landing
 header:

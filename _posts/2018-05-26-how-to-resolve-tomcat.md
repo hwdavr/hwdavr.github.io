@@ -1,7 +1,7 @@
 ---
 title:  "How to resolve Tomcat Error - java.lang.OutOfMemoryError: PermGen in Amazon Linux AMI"
 date:   2018-03-29 19:00:33 +0800
-categories: Server&Cloud
+categories: ServerCloud
 classes:
   - landing
 header:

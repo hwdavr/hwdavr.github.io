@@ -1,10 +1,10 @@
 # main links
 main:
-  - title: "Mobile Security"
+  - title: "MobileSecurity"
     url: /categories/#mobliesecurity
-  - title: "Mobile Programming"
-    url: /categories/#moblieprogramming
-  - title: "Server&Cloud"
+  - title: "Programming"
+    url: /categories/#programming
+  - title: "ServerCloud"
     url: /categories/#servercloud
   - title: "Others"
     url: /categories/#others

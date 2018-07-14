@@ -1,7 +1,7 @@
 ---
 title:  "iOSOpenDev environment setup solution"
 date:   2018-07-14 16:10:33 +0800
-categories: mobliesecurity
+categories: MoblieSecurity
 classes:
   - landing
 header:
@@ -13,9 +13,9 @@ header:
 https://github.com/535064094/iosOpenDevInstallTools/wiki/iOSOpenDev-install-solution
 
 The only issue is to build ldid, you will encounter an error below,
-'''
+```
 ld: library not found for -lcrypto
-'''
+```
 
 Instead of using official release of ldid, you can use the unofficial release from below github repo,
 https://github.com/xerub/ldid
