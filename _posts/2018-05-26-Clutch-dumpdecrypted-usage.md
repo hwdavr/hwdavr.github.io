@@ -9,7 +9,7 @@ header:
 ---
 
 
-### Clutch Usage
+## Clutch Usage
 Dump the installed app
 ```
 Clutch -i
@@ -19,7 +19,7 @@ Dump app with number
 Clutch -d 63
 ```
 
-### dumpdecrypted Usage
+## dumpdecrypted Usage
 Check the process Id
 ```
 ps -e | grep Aplipay
