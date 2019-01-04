@@ -9,7 +9,7 @@ header:
 ---
 
 
-## The step of setup basically can follow the article below
+The step of setup basically can follow the article below,
 <https://github.com/535064094/iosOpenDevInstallTools/wiki/iOSOpenDev-install-solution>
 
 The only issue is to build ldid, you will encounter an error below,
